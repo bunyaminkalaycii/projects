@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="y.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.9564058"
+     inkscape:cx="19.787541"
+     inkscape:cy="27.736382"
+     inkscape:window-width="1328"
+     inkscape:window-height="449"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="382.17758"
+       y="379.90271"
+       width="50.047066"
+       height="129.66739"
+       id="rect2" />
+  </defs>
+  <g
+     inkscape:label="Katman 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text2"
+       style="font-size:13.3333px;font-family:Rockwell;-inkscape-font-specification:Rockwell;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#000000" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.25483px;font-family:'.Al Tarikh PUA';-inkscape-font-specification:'.Al Tarikh PUA';fill:#000000;stroke-width:0.694113"
+       x="4.2609453"
+       y="9.3111982"
+       id="text1"
+       transform="scale(0.92072239,1.0861037)"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="stroke-width:0.694113"
+         x="4.2609453"
+         y="9.3111982">Y</tspan></text>
+  </g>
+</svg>
