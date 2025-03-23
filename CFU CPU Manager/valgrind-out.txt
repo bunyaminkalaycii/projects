@@ -1,0 +1,67 @@
+==481== Memcheck, a memory error detector
+==481== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==481== Using Valgrind-3.23.0-c54d316124-20240426 and LibVEX; rerun with -h for copyright info
+==481== Command: bin/main
+==481== Parent PID: 462
+==481== 
+--481-- 
+--481-- Valgrind options:
+--481--    --leak-check=full
+--481--    --show-leak-kinds=all
+--481--    --track-origins=yes
+--481--    --verbose
+--481--    --log-file=valgrind-out.txt
+--481-- Contents of /proc/version:
+--481--   Linux version 6.10.4-linuxkit (root@buildkitsandbox) (gcc (Alpine 13.2.1_git20240309) 13.2.1 20240309, GNU ld (GNU Binutils) 2.42) #1 SMP Wed Oct  2 16:38:00 UTC 2024
+--481-- 
+--481-- Arch and hwcaps: ARM64, LittleEndian, v8-fhm-dpbcvadp-sha3-rdm-atomics-fp16-vfp16
+--481-- Page sizes: currently 4096, max supported 65536
+--481-- Valgrind library directory: /usr/libexec/valgrind
+--481-- Reading syms from /workspaces/HW4_skeleton/bin/main
+--481-- Reading syms from /usr/lib/aarch64-linux-gnu/ld-linux-aarch64.so.1
+--481--   Considering /usr/lib/debug/.build-id/87/f56b6017f1c24ff66cafa216127c8b154799bd.debug ..
+--481--   .. build-id is valid
+--481-- Reading syms from /usr/libexec/valgrind/memcheck-arm64-linux
+--481--    object doesn't have a dynamic symbol table
+--481-- Scheduler: using generic scheduler lock implementation.
+--481-- Reading suppressions file: /usr/libexec/valgrind/default.supp
+==481== embedded gdbserver: reading from /tmp/vgdb-pipe-from-vgdb-to-481-by-???-on-8689cb24f378
+==481== embedded gdbserver: writing to   /tmp/vgdb-pipe-to-vgdb-from-481-by-???-on-8689cb24f378
+==481== embedded gdbserver: shared mem   /tmp/vgdb-pipe-shared-mem-vgdb-481-by-???-on-8689cb24f378
+==481== 
+==481== TO CONTROL THIS PROCESS USING vgdb (which you probably
+==481== don't want to do, unless you know exactly what you're doing,
+==481== or are doing some strange experiment):
+==481==   /usr/bin/vgdb --pid=481 ...command...
+==481== 
+==481== TO DEBUG THIS PROCESS USING GDB: start GDB like this
+==481==   /path/to/gdb bin/main
+==481== and then give GDB the following command
+==481==   target remote | /usr/bin/vgdb --pid=481
+==481== --pid is optional if only one valgrind process is running
+==481== 
+--481-- REDIR: 0x401d280 (ld-linux-aarch64.so.1:strlen) redirected to 0x580c4a30 (???)
+--481-- REDIR: 0x401c780 (ld-linux-aarch64.so.1:strcmp) redirected to 0x580c4a84 (???)
+--481-- REDIR: 0x401c6c0 (ld-linux-aarch64.so.1:index) redirected to 0x580c4a58 (???)
+--481-- Reading syms from /usr/libexec/valgrind/vgpreload_core-arm64-linux.so
+--481-- Reading syms from /usr/libexec/valgrind/vgpreload_memcheck-arm64-linux.so
+--481-- Reading syms from /usr/lib/aarch64-linux-gnu/libc.so.6
+--481--   Considering /usr/lib/debug/.build-id/5c/8f998f04145b99f2b808e5679fee4bb785e2a5.debug ..
+--481--   .. build-id is valid
+--481-- REDIR: 0x4959f20 (libc.so.6:memchr) redirected to 0x485078c (_vgnU_ifunc_wrapper)
+--481-- REDIR: 0x495d920 (libc.so.6:strlen) redirected to 0x485078c (_vgnU_ifunc_wrapper)
+--481-- REDIR: 0x495a160 (libc.so.6:memcpy) redirected to 0x485078c (_vgnU_ifunc_wrapper)
+--481-- REDIR: 0x495dec0 (libc.so.6:rindex) redirected to 0x488dd20 (rindex)
+--481-- REDIR: 0x4955c04 (libc.so.6:malloc) redirected to 0x4885400 (malloc)
+--481-- REDIR: 0x4962f80 (libc.so.6:__GI_strlen) redirected to 0x488e6ec (__GI_strlen)
+--481-- REDIR: 0x4961380 (libc.so.6:__GI_memcpy) redirected to 0x4890ad0 (__GI_memcpy)
+--481-- REDIR: 0x495ba80 (libc.so.6:strchrnul) redirected to 0x4893a64 (strchrnul)
+--481-- REDIR: 0x49564c4 (libc.so.6:free) redirected to 0x48884a0 (free)
+==481== 
+==481== HEAP SUMMARY:
+==481==     in use at exit: 0 bytes in 0 blocks
+==481==   total heap usage: 54 allocs, 54 frees, 2,048 bytes allocated
+==481== 
+==481== All heap blocks were freed -- no leaks are possible
+==481== 
+==481== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
